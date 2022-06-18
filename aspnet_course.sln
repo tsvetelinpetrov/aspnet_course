@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "Controllers\Controllers.csproj", "{4D3D031E-6142-46E6-9A93-6307E71D005A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{4D3D031E-6142-46E6-9A93-6307E71D005A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterAndLogin", "RegisterAndLogin\RegisterAndLogin.csproj", "{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4D3D031E-6142-46E6-9A93-6307E71D005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D3D031E-6142-46E6-9A93-6307E71D005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D3D031E-6142-46E6-9A93-6307E71D005A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
