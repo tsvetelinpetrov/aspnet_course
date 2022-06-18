@@ -20,6 +20,9 @@ namespace Controllers.Controllers
 
         public IActionResult Welcome(string name, int number)
         {
+            ViewBag.Name = name;
+            ViewBag.Number = number;
+
             return View();
         }
     }
