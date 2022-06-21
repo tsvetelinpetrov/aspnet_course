@@ -5,9 +5,12 @@ namespace DataValidation.Controllers
 {
     public class AppointmentController : Controller
     {
+
+        List<AppointmentModel> appointments = new List<AppointmentModel>();
+
         public IActionResult Index()
         {
-            return View();
+            return View(appointments);
         }
 
         public IActionResult Create()
@@ -17,6 +20,7 @@ namespace DataValidation.Controllers
 
         public IActionResult Details(AppointmentModel appointment)
         {
+            appointments.Add(appointment);
             return View("Details", appointment);
         }
     }
