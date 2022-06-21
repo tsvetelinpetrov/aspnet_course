@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{4D3D031E-6142-46E6-9A93-6307E71D005A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterAndLogin", "RegisterAndLogin\RegisterAndLogin.csproj", "{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterAndLogin", "RegisterAndLogin\RegisterAndLogin.csproj", "{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "DataValidation\DataValidation.csproj", "{08EB2D72-6A3A-47A2-A652-63717BBE3E93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A568DC3-FE1D-4B5D-B630-ADA8D5E925F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EB2D72-6A3A-47A2-A652-63717BBE3E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EB2D72-6A3A-47A2-A652-63717BBE3E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EB2D72-6A3A-47A2-A652-63717BBE3E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EB2D72-6A3A-47A2-A652-63717BBE3E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
