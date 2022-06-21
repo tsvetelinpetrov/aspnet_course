@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DataValidation.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DataValidation.Controllers
 {
@@ -12,6 +13,11 @@ namespace DataValidation.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        public IActionResult Details(AppointmentModel appointment)
+        {
+            return View("Details", appointment);
         }
     }
 }
